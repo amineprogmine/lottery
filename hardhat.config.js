@@ -32,4 +32,10 @@ module.exports = {
             blockConfirmations: 6,
         },
     },
+    gasReporter: {
+        enabled: false,
+    },
+    mocha: {
+        timeout: 300000,
+    },
 }
